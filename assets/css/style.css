@@ -80,7 +80,7 @@ p {
     margin-left: 20px;
 }
 
-/* Aside text box styling */
+/* Aside text box styling. COnsolidated redundant CSS to one class. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,61 +89,31 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #2589bd; 
 }
 
-.benefit-lead {
+/* Aside Text. Consolidated redundant CSS to one class. */
+.aside-cards {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Aside heading styles */
-.benefit-lead h3 {
+/* Aside Headings. Consolidated redundant CSS to one class. */
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Aside image placement */
-.benefit-lead img {
+/* Aside image placement. Consolidated redundant CSS to one class. */
+.aside-cards img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* main body text box styling */
-.search-engine-optimization {
+/* Main body text box styling. Consolidated redundant CSS to one class. */
+.main-cards {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,26 +122,9 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/* ToDo: Consolidate these into one class */
 /* Main text box image sizing */
-.search-engine-optimization img {
+.main-cards img {
     max-height: 200px;
 }
 
@@ -182,9 +135,9 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* ToDo: Consolidate these into one class */
 /*Main body heading styles */
-.search-engine-optimization h2 {
+.main-cards h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
